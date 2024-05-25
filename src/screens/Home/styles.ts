@@ -19,6 +19,18 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         color: '#F2F2F2',
         marginEnd: 4,
+        borderWidth: 1
+    },
+    inputFocused: {
+        backgroundColor: '#262626',
+        flex: 1,
+        padding: 16,
+        borderRadius: 6,
+        fontSize: 16,
+        color: '#F2F2F2',
+        marginEnd: 4,
+        borderColor: '#5E60CE',
+        borderWidth: 1
     },
     btnAdd: {
         backgroundColor: '#1E6F9F',

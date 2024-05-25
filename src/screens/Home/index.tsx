@@ -69,7 +69,7 @@ export default function Home() {
             </View>
             <View style={styles.inputContainer}>
                 <TextInput
-                    style={styles.input}
+                    style={taskName.length > 0 ? styles.inputFocused : styles.input}
                     placeholder="Adicione uma nova tarefa"
                     placeholderTextColor={'#808080'}
                     onChangeText={setTaskName}
